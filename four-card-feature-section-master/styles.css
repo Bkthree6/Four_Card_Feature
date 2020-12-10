@@ -129,7 +129,7 @@ p {
 
 @media (min-width: 1024px) {
     .container {
-        padding-top: 5vw;
+        padding-top: 4vw;
     }
     h1 {
         font-size: 35px;
@@ -143,23 +143,27 @@ p {
     }
     .card-container {
         margin-top: 10px;
+        height: 550px;
     }
     .supervisor-card {
         position: absolute;
-        top: 325px;
-        left: 7em;
+        top: 275px;
+        left: 9%;
     }
     .team-card {
         position: absolute;
-        top: 200px;
+        top: 150px;
     }
     .karma-card {
         position: absolute;
-        top: 440px;
+        top: 385px;
     }
     .calculator-card {
         position: absolute;
-        top: 325px;
-        right: 7em;
+        top: 275px;
+        right: 9%;
+    }
+    footer {
+        display: none;
     }
 }
