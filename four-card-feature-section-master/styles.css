@@ -5,6 +5,7 @@
 
 /* Global styles */
 body {
+    height: 400px;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     background-color: hsl(0, 0%, 95%);
@@ -40,7 +41,6 @@ p {
     margin: 0 auto;
     padding-top: 5%;
 }
-
 
 /* Card styles */
 .card-container {
@@ -86,12 +86,18 @@ p {
 
 /* Media queries for the header */
 @media screen and (min-width: 600px) {
+    .container {
+        padding-top: 15vw;
+    }
     h1 {
         font-size: 4vw;
     }
     h2 {
         font-weight: 700;
         font-size: 4vw;
+    }
+    .header-content p {
+        padding-top: 2%;
     }
     #header-para {
         width: 60vw;
@@ -103,6 +109,9 @@ p {
 }
 
 @media (min-width: 750px) {
+    .container {
+        padding-top: 10vw;
+    }
     h1 {
         font-size: 3vw;
     }
@@ -119,13 +128,38 @@ p {
 }
 
 @media (min-width: 1024px) {
+    .container {
+        padding-top: 5vw;
+    }
     h1 {
-
+        font-size: 35px;
     }
     h2 {
-
+        font-size: 35px;
     }
     #header-para {
-        
+        width: 45vw;
+        font-size: 16px;
+    }
+    .card-container {
+        margin-top: 10px;
+    }
+    .supervisor-card {
+        position: absolute;
+        top: 325px;
+        left: 7em;
+    }
+    .team-card {
+        position: absolute;
+        top: 200px;
+    }
+    .karma-card {
+        position: absolute;
+        top: 440px;
+    }
+    .calculator-card {
+        position: absolute;
+        top: 325px;
+        right: 7em;
     }
 }
