@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Global styles */
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+h1 {
+    font-weight: 200;
+    color: hsl(229, 6%, 55%);
+    font-size: 6vw;
+}
+h2 {
+    font-weight: 700;
+    font-size: 6vw;
+}
+h3 {
+    font-weight: 700;
+}
+p {
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+}
+
+
+/* Container and header styles */
+.container {
+    padding: 20vw 6vw 2vw 6vw;
+}
+.header-content {
+    text-align: center;
+}
+.header-content p {
+    width: 70vw;
+    font-size: 3.5vw;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+
+/* Card styles */
+.card-container {
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    height: 150px;
+    width: 270px;
+    background-color: white;
+    box-shadow: -3px 3px 10px hsl(229, 6%, 66%);
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+/* Specific card styles */
+.supervisor-card {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.team-card {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.karma-card {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.calculator-card {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-bottom: 50px;
+}
+.card-para {
+    padding-top: 5px;
+}
+.card-img {
+    height: 60px;
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+/* Media queries for the header */
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 4vw;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 4vw;
+    }
+    #header-para {
+        width: 60vw;
+        font-size: 12px;
+    }
+    .card-container {
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 750px) {
+    h1 {
+        font-size: 3vw;
+    }
+    h2 {
+        font-size: 3vw;
+    }
+    #header-para {
+        width: 50vw;
+        font-size: 14px;
+    }
+    .card-container {
+        margin-top: 3%;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+
+    }
+    h2 {
+
+    }
+    #header-para {
+        
+    }
+}
